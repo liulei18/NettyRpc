@@ -1,5 +1,3 @@
 package com.lenovo.message
 
-class RegisterMsg {
-
-}
+case class RegisterMsg(content: String) extends Serializable
